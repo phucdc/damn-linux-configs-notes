@@ -1,0 +1,10 @@
+[Unit]
+Description=ZRAM Setup
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/opt/zram-config/zram_init.sh
+
+[Install]
+WantedBy=multi-user.target
