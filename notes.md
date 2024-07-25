@@ -38,3 +38,22 @@ inode/directory=org.gnome.Nautilus.desktop
 MultipleProfile = multiple
 ...
 ```
+
+## Reflector every time network is On
+
+```conf 
+# /etc/systemd/system/reflector.service
+
+[Unit]
+Description=Pacman mirrorlist update
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/reflector --country VN,SG --age 12 --protocol http,https --sort rate -n 5 --save /etc/pacman.d/mirrorlist
+
+[Install]
+WantedBy=multi-user.target
+```
+
