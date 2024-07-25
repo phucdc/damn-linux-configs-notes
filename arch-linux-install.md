@@ -169,30 +169,30 @@ For desktop set up (Optional):
 
 - First, we need a Display server and GTK:
 
-```bash
-pacman -S xorg xorg-server gtk4
-```
+    ```bash
+    pacman -S xorg xorg-server gtk4
+    ```
 
 - For GNOME:
 
-```bash
-pacman -S gnome gdm
-systemctl enable gdm
-```
+    ```bash
+    pacman -S gnome gdm
+    systemctl enable gdm
+    ```
 
 - For KDE Plasma:
 
-```bash 
-pacman -S plasma plasma-wayland-session kde-applications
-systemctl enable sddm
-```
+    ```bash 
+    pacman -S plasma plasma-wayland-session kde-applications
+    systemctl enable sddm
+    ```
 
 - For XFCE:
 
-```bash 
-pacman -S xfce4 xfce4-goodies lightdm lightdm-gtk-greeter
-systemctl enable lightdm 
-```
+    ```bash 
+    pacman -S xfce4 xfce4-goodies lightdm lightdm-gtk-greeter
+    systemctl enable lightdm 
+    ```
 
 Now, we can exit and reboot
 
