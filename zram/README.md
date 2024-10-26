@@ -1,5 +1,7 @@
 # ZRAM config
 
+> Cautions: you must turn off/remove old swaps, to know if any swaps already enabled: `swapon -s`
+
 ### Setup:
 
 ```
