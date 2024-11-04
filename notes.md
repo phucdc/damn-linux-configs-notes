@@ -57,3 +57,12 @@ ExecStart=/usr/bin/reflector --country VN,SG --age 12 --protocol http,https --so
 WantedBy=multi-user.target
 ```
 
+## My zsh-syntax-highlighting color config
+
+```console
+cat << EOF >> ~/.zshrc
+ZSH_HIGHLIGHT_STYLES[path]=fg=magenta
+ZSH_HIGHLIGHT_STYLES[precommand]=fg=cyan,bold
+ZSH_HIGHLIGHT_STYLES[arg0]=fg=green
+EOF
+```
