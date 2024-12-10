@@ -59,10 +59,8 @@ WantedBy=multi-user.target
 
 ## My zsh-syntax-highlighting color config
 
-```console
-cat << EOF >> ~/.zshrc
+```bash
 ZSH_HIGHLIGHT_STYLES[path]=fg=magenta
-ZSH_HIGHLIGHT_STYLES[precommand]=fg=cyan,bold
-ZSH_HIGHLIGHT_STYLES[arg0]=fg=green
-EOF
+ZSH_HIGHLIGHT_STYLES[precommand]=fg=green
+ZSH_HIGHLIGHT_STYLES[arg0]=fg=blue
 ```
