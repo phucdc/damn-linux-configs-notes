@@ -64,3 +64,19 @@ ZSH_HIGHLIGHT_STYLES[path]=fg=magenta
 ZSH_HIGHLIGHT_STYLES[precommand]=fg=green
 ZSH_HIGHLIGHT_STYLES[arg0]=fg=blue
 ```
+
+## Boost up DNF Fedora speed
+
+Add this to `/etc/dnf/dnf.conf`:
+
+```conf
+[main]
+fastestmirror=True
+max_parallel_downloads=10
+gpgcheck=True
+installonly_limit=3
+clean_requirements_on_remove=True
+best=False
+skip_if_unavailable=True
+```
+
