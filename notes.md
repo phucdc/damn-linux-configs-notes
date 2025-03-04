@@ -80,3 +80,8 @@ best=False
 skip_if_unavailable=True
 ```
 
+## GNOME blank screen after lockscreen
+
+> Fuck this shit GNOME, my everything stops when lockscreen, thanks to "the greatest mechanism ever lived", fuck you GNOME
+
+Just download and enable [this awesome extension](https://extensions.gnome.org/extension/1414/unblank/)
