@@ -85,3 +85,13 @@ skip_if_unavailable=True
 > Fuck this shit GNOME, my everything stops when lockscreen, thanks to "the greatest mechanism ever lived", fuck you GNOME
 
 Just download and enable [this awesome extension](https://extensions.gnome.org/extension/1414/unblank/)
+
+## Fucking annoying "Remote Desktop" pop up in GNOME
+
+> Once again, fuck you GNOME
+
+```bash
+gsettings set org.gnome.mutter.wayland xwayland-disable-extension  '["Xtest"]'
+```
+
+Logout and login back, problem goes away
