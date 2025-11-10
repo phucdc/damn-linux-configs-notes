@@ -95,3 +95,11 @@ gsettings set org.gnome.mutter.wayland xwayland-disable-extension  '["Xtest"]'
 ```
 
 Logout and login back, problem goes away
+
+## Fn keys not working?
+
+```bash
+echo 'options hid_apple fnmode=2' | sudo tee -a /etc/modprobe.d/hid_apple.conf
+sudo update-initramfs -u -k all
+reboot
+```
