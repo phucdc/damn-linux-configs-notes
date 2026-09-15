@@ -1,9 +1,12 @@
 ## Spec
+- OS: Fedora 44 KDE Plasma Desktop Edition
 - CPU: AMD Ryzen 7 7700
 - RAM: 32Gb DDR5 Dual-channel
 - VGA: Asus Geforce RTX5060 8Gb
-- Disabled iGPU
-- Disabled Secureboot
+- BIOS Settings:
+  - Disabled iGPU
+  - Disabled Secureboot
+  - Disabled EXPO
 
 ## Fedora setup
 After finish installing Fedora, follow this post-installation setup: https://github.com/wz790/Fedora-Noble-Setup
@@ -12,6 +15,23 @@ After finish installing Fedora, follow this post-installation setup: https://git
 ```bash
 sudo dnf install -y steam mangohud gamemoderun
 ```
+
+Manual run `steam` on Terminal to see if there's some problem.
+
+## GE-Proton
+Don't know what is Proton and why GE-Proton? Read this sh*t:
+<img width="739" height="206" alt="image" src="https://github.com/user-attachments/assets/39371565-6448-40b0-acb8-e530152d87cb" />
+
+Step-by-step:
+- Install [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/) via Flathub or Appimage
+<img width="443" height="391" alt="image" src="https://github.com/user-attachments/assets/7d6cbfc5-e2f8-44a0-8f8d-fdce30255bdb" />
+- Select "Add version"
+- In "Compatibility tool", select "GE-Proton"
+- In "Version", select the latest version and hit "Install"
+- Restart Steam
+- Steam > Settings > Compatibility
+- In "Default Compatibility tool", select `GE-Protonxx-y-zzzzz`
+- When asked, hit "Restart"
 
 ## Launch settings
 
