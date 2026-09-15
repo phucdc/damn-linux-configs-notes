@@ -3,7 +3,7 @@ Follow this post-installation setup: https://github.com/wz790/Fedora-Noble-Setup
 
 ## MangoHUD
 ```bash
-sudo dnf install -y mangohud
+sudo dnf install -y mangohud gamemoderun
 ```
 
 ## Launch settings
