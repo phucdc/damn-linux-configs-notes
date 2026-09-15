@@ -24,7 +24,6 @@ Don't know what is Proton and why GE-Proton? Read this sh*t:
 
 Step-by-step:
 - Install [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/) via Flathub or Appimage
-<img width="443" height="391" alt="image" src="https://github.com/user-attachments/assets/7d6cbfc5-e2f8-44a0-8f8d-fdce30255bdb" />
 - Select "Add version"
 - In "Compatibility tool", select "GE-Proton"
 - In "Version", select the latest version and hit "Install"
