@@ -41,5 +41,5 @@ This is to prevent the "Vulkan loading... whatever fuck" when start the game. In
 ## Launch settings
 
 ```bash
-SDL_VIDEO_DRIVER=wayland LD_PRELOAD="" gamemoderun mangohud %command% -fullscreen -novid -high -nojoy +fps_max 0 -console -sdlaudiodriver pipewire
+SDL_VIDEODRIVER=wayland LD_PRELOAD="" gamemoderun mangohud %command% -fullscreen -novid -high -nojoy +fps_max 0 -console -sdlaudiodriver pipewire
 ```
