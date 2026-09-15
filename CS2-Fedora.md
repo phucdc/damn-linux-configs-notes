@@ -1,9 +1,16 @@
-## Setup
-Follow this post-installation setup: https://github.com/wz790/Fedora-Noble-Setup
+## Spec
+- CPU: AMD Ryzen 7 7700
+- RAM: 32Gb DDR5 Dual-channel
+- VGA: Asus Geforce RTX5060 8Gb
+- Disabled iGPU
+- Disabled Secureboot
 
-## MangoHUD
+## Fedora setup
+After finish installing Fedora, follow this post-installation setup: https://github.com/wz790/Fedora-Noble-Setup
+
+## Steam & other utilities
 ```bash
-sudo dnf install -y mangohud gamemoderun
+sudo dnf install -y steam mangohud gamemoderun
 ```
 
 ## Launch settings
